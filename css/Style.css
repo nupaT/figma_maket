@@ -76,17 +76,20 @@ h1, h2, h3, h4, h5, h6 {
 /*-----------*/
 body {
   font-family: Heebo;
+  color: #21243D;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400px;
 }
 
 .container {
   max-width: 855px;
-  background-color: lightblue;
+  margin: 0 auto;
 }
 
 .header {
   max-width: 1030px;
-  background-color: gray;
-  margin: 0 auto 140px;
+  margin: 0 auto 153px;
 }
 
 .header__row {
@@ -105,4 +108,36 @@ body {
   line-height: 30px;
   text-decoration: none;
   margin: 0px 0px 0px 33px;
+}
+
+.profile__row {
+  display: flex;
+}
+
+.profile__info {
+  margin: 19px 0;
+}
+
+.profile__info__title {
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 60px;
+  margin: 0px 0px 25px 0px;
+}
+
+.profile__info__desc {
+  margin: 0px 0px 40px 0px;
+}
+
+a {
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 29px;
+  background-color: #FF6464;
+  padding: 9px 21px 9px 20px;
+}
+
+.profile__foto {
+  margin: 0px 0px 0px 115px;
 }
