@@ -1,4 +1,47 @@
 @import "Null.scss";
 
-/*-----------*/
+/*-----------*/ 
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700&display=swap');
 
+body {
+  font-family: Heebo;
+}
+
+.container {
+  max-width: 855px;
+  background-color: lightblue;
+ }
+
+.header {
+  max-width: 1030px;
+  background-color: gray;
+  margin: 0 auto 140px;
+ }
+.header__row {
+  display: flex;
+  justify-content: flex-end;
+ }
+.header__nav { }
+.nav {
+  display: flex;
+  list-style: none;
+  margin: 27px 0px 0px 0px;
+  & li {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    text-decoration: none;
+    margin: 0px 0px 0px 33px;
+  }
+ }
+
+
+ .profile { }
+
+ .profile__row { }
+ .profile__info { }
+ .profile__info__title { }
+ .profile__info__desc { }
+ .profile__info__button { }
+ .profile__foto { }
+ 
