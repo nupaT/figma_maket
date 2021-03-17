@@ -17,7 +17,7 @@ body {
  }
 
 .header {
-  max-width: 1030px;
+  max-width: 1070px;
   margin: 0 auto 153px;
  }
 .header__row {
@@ -28,24 +28,28 @@ body {
 .nav {
   display: flex;
   list-style: none;
-  margin: 27px 0px 0px 0px;
+  margin: 27px 20px 0px 0px;
   & li {
     font-size: 20px;
     font-weight: 500;
     line-height: 30px;
-    text-decoration: none;
     margin: 0px 0px 0px 33px;
   }
  }
+
+ a.nav__item{
+  color: #21243D;
+}
 
 
  .profile { }
 
  .profile__row {
    display: flex;
+   margin: 0px 0px 80px 0px;
   }
  .profile__info {
-   margin: 19px 0;
+   margin: 19px 0px 0px 0px;
   }
  .profile__info__title {
    font-size: 44px;
@@ -58,20 +62,82 @@ body {
 
   }
 
-  a {
+  a.profile__info__button{
     color: #ffffff;
     font-weight: 500;
     font-size: 20px;
     line-height: 29px;
     background-color: #FF6464;
     padding: 9px 21px 9px 20px;
+
   }
 
  .profile__info__button {
-
 
   }
  .profile__foto {
    margin: 0px 0px 0px 115px;
   }
- 
+
+.recent__post {
+  background-color: #EDF7FA;
+  padding: 0px 0px 32px 0px;
+ }
+.recent__head {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 7px 0px 0px 0px;
+  // margin: 0px 0px 1px 0px;
+ }
+.recent__title {
+  font-size: 22px;
+  line-height: 60px;
+ }
+.recent__view { }
+.recent__view__link {
+  color: #00A8CC;
+ }
+.recent__row {
+ }
+.recent__cards { 
+  display: flex;
+  margin: 0 -11px;
+  
+ }
+.recent__card {
+  padding: 0 11px;
+  display: flex;
+  flex: 0 1 auto;
+ }
+
+ .recent__content{
+  padding: 25px 21px 28px 23px;
+  background-color: #fff;
+  border-radius: 2px;
+ }
+
+.recent__card__title {
+  font-size: 26px;
+  line-height: 38px;
+  font-weight: 700;
+  margin: 0px 0px 28px 0px;
+ }
+.recent__card__date {
+  display: flex;
+  font-size: 18px;
+  line-height: 26px;
+  margin: 0px 0px 18px 0px;
+ }
+.recent__cart__day {
+  margin: 0px 31px 0px 0px;
+}
+.recent__cart__seporator{
+  display: flex;
+  height: 10fr;
+  width: 1px;
+  border-right: 1px solid #000;
+  margin: 0px 25px 0px 0px;
+}
+.recent__cart__event {}
+.recent__card__desc { }
