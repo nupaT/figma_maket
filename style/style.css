@@ -380,7 +380,8 @@ a.profile__info__button {
     margin: 0px 0px 15px 0px;
   }
   .featured__card__pic img {
-    width: 100%;
+    width: 100vw;
+    padding: 0px 15px;
   }
 }
 
