@@ -1,11 +1,11 @@
-@import "Null.scss";
+@import "null.scss";
 
-/*-----------*/ 
-@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700&display=swap');
+/*-----------*/
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700&display=swap");
 
 body {
   font-family: Heebo;
-  color: #21243D;
+  color: #21243d;
   font-size: 16px;
   line-height: 24px;
   font-weight: 400px;
@@ -14,17 +14,21 @@ body {
 .container {
   max-width: 855px;
   margin: 0 auto;
- }
+}
 
 .header {
   max-width: 1070px;
   margin: 0 auto 153px;
- }
+}
+
 .header__row {
   display: flex;
   justify-content: flex-end;
- }
-.header__nav { }
+}
+
+.header__nav {
+}
+
 .nav {
   display: flex;
   list-style: none;
@@ -35,109 +39,124 @@ body {
     line-height: 30px;
     margin: 0px 0px 0px 33px;
   }
- }
-
- a.nav__item{
-  color: #21243D;
 }
 
+a.nav__item {
+  color: #21243d;
+}
 
- .profile { }
+.profile {
+}
 
- .profile__row {
-   display: flex;
-   margin: 0px 0px 80px 0px;
-  }
- .profile__info {
-   margin: 19px 0px 0px 0px;
-  }
- .profile__info__title {
-   font-size: 44px;
-   font-weight: 700;
-   line-height: 60px;
-   margin: 0px 0px 25px 0px;
-  }
- .profile__info__desc {
-   margin: 0px 0px 40px 0px;
+.profile__row {
+  display: flex;
+  margin: 0px 0px 80px 0px;
+}
 
-  }
+.profile__info {
+  margin: 19px 0px 0px 0px;
+}
 
-  a.profile__info__button{
-    color: #ffffff;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 29px;
-    background-color: #FF6464;
-    padding: 9px 21px 9px 20px;
+.profile__info__title {
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 60px;
+  margin: 0px 0px 25px 0px;
+}
 
-  }
+.profile__info__desc {
+  margin: 0px 0px 40px 0px;
+}
 
- .profile__info__button {
+a.profile__info__button {
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 29px;
+  background-color: #ff6464;
+  padding: 9px 21px 9px 20px;
+}
 
-  }
- .profile__foto {
-   margin: 0px 0px 0px 115px;
-  }
+.profile__info__button {
+}
+
+.profile__foto {
+  margin: 0px 0px 0px 115px;
+}
 
 .recent__post {
-  background-color: #EDF7FA;
+  background-color: #edf7fa;
   padding: 0px 0px 32px 0px;
- }
+}
+
 .recent__head {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
   padding: 7px 0px 0px 0px;
   // margin: 0px 0px 1px 0px;
- }
+}
+
 .recent__title {
   font-size: 22px;
   line-height: 60px;
- }
-.recent__view { }
+}
+
+.recent__view {
+}
+
 .recent__view__link {
-  color: #00A8CC;
- }
+  color: #00a8cc;
+}
+
 .recent__row {
- }
-.recent__cards { 
+}
+
+.recent__cards {
   display: flex;
   margin: 0 -11px;
-  
- }
+}
+
 .recent__card {
   padding: 0 11px;
   display: flex;
   flex: 0 1 auto;
- }
+}
 
- .recent__content{
+.recent__content {
   padding: 25px 21px 28px 23px;
   background-color: #fff;
   border-radius: 2px;
- }
+}
 
 .recent__card__title {
   font-size: 26px;
   line-height: 38px;
   font-weight: 700;
   margin: 0px 0px 28px 0px;
- }
+}
+
 .recent__card__date {
   display: flex;
   font-size: 18px;
   line-height: 26px;
   margin: 0px 0px 18px 0px;
- }
+}
+
 .recent__cart__day {
   margin: 0px 31px 0px 0px;
 }
-.recent__cart__seporator{
+
+.recent__cart__seporator {
   display: flex;
   height: 10fr;
   width: 1px;
   border-right: 1px solid #000;
   margin: 0px 25px 0px 0px;
 }
-.recent__cart__event {}
-.recent__card__desc { }
+
+.recent__cart__event {
+}
+
+.recent__card__desc {
+}
