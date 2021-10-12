@@ -227,3 +227,26 @@ a.profile__info__button {
 }
 
 // featured works End
+
+// contacts Start
+.contacts {
+  display: flex;
+  flex-direction: column;
+  margin: 108px 0px 0px 0px;
+}
+.contacts__ico {
+  width: 230px;
+  ul {
+    display: flex;
+    justify-content: space-between;
+    li {
+    }
+  }
+}
+
+.copyright {
+  margin: 25px 0px 60px 0px;
+  font-size: 14px;
+  text-align: center;
+}
+// contacts End

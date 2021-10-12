@@ -308,3 +308,33 @@ a.profile__info__button {
 .featured__card__desc {
   margin: 22px 0px 0px 0px;
 }
+
+.contacts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 108px 0px 0px 0px;
+}
+
+.contacts__ico {
+  width: 230px;
+}
+
+.contacts__ico ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.copyright {
+  margin: 25px 0px 60px 0px;
+  font-size: 14px;
+  text-align: center;
+}
