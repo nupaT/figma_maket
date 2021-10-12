@@ -251,3 +251,60 @@ a.profile__info__button {
   border-right: 1px solid #000;
   margin: 0px 25px 0px 0px;
 }
+
+.featured__head {
+  font-size: 22px;
+  line-height: 60px;
+  margin: 15px 0px 0px 0px;
+}
+
+.featured__card:first-child {
+  margin: 22px 0px 0px 0px;
+}
+
+.featured__card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 31px 0px 0px 0px;
+  padding: 0px 0px 35px 0px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.featured__card__pic {
+  margin: 0px 16px 0px 0px;
+}
+
+.featured__card__title {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.featured__card__date {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 29px 0px 0px 0px;
+}
+
+.featured__card__year {
+  width: 62px;
+  height: 25px;
+  border-radius: 16px;
+  background-color: #142850;
+  font-size: 18px;
+  font-weight: 900;
+  text-align: center;
+  color: #ffffff;
+}
+
+.featured__card__event {
+  margin: 0px 0px 0px 26px;
+  font-size: 20px;
+  font-weight: 400;
+  color: #8695a4;
+}
+
+.featured__card__desc {
+  margin: 22px 0px 0px 0px;
+}
