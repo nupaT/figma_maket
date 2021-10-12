@@ -16,9 +16,21 @@ body {
   margin: 0 auto;
 }
 
+@media (max-width: 910px) {
+  .container {
+    padding: 0px 15px;
+  }
+}
+
 .header {
   max-width: 1070px;
   margin: 0 auto 153px;
+}
+
+@media (max-width: 775px) {
+  .header {
+    margin: 0 auto 30px;
+  }
 }
 
 .header__row {
@@ -29,7 +41,7 @@ body {
 .header__nav {
 }
 
-.nav {
+.nav__panel {
   display: flex;
   list-style: none;
   margin: 27px 20px 0px 0px;
@@ -45,8 +57,7 @@ a.nav__item {
   color: #21243d;
 }
 
-.profile {
-}
+// Profile Start
 
 .profile__row {
   display: flex;
@@ -83,6 +94,19 @@ a.profile__info__button {
 .profile__foto {
   margin: 0px 0px 0px 115px;
 }
+
+@media (max-width: 775px) {
+  .profile__row {
+    flex-direction: column-reverse;
+    align-items: center;
+    text-align: center;
+  }
+  .profile__foto {
+    margin: 0px 0px 35px 0px;
+  }
+}
+
+// Profile Start
 
 .main {
 }
@@ -165,6 +189,24 @@ a.profile__info__button {
 .recent__card__desc {
 }
 
+@media (max-width: 650px) {
+  .recent__post {
+    margin: 0px 15px;
+  }
+  .recent__head {
+    justify-content: center;
+  }
+  .recent__view {
+    display: none;
+  }
+  .recent__cards {
+    flex-direction: column;
+  }
+  .recent__card {
+    padding: 0px 15px 15px;
+  }
+}
+
 // Recent post End
 
 // featured works Start
@@ -226,6 +268,22 @@ a.profile__info__button {
   margin: 22px 0px 0px 0px;
 }
 
+@media (max-width: 650px) {
+  .featured__head {
+    text-align: center;
+  }
+  .featured__card {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .featured__card__pic {
+    margin: 0px 0px 15px 0px;
+    img {
+      width: 100%;
+    }
+  }
+}
 // featured works End
 
 // contacts Start
