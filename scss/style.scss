@@ -9,16 +9,18 @@ body {
   font-size: 16px;
   line-height: 24px;
   font-weight: 400px;
+  margin: 0 auto;
 }
 
 .container {
   max-width: 855px;
   margin: 0 auto;
+  padding: 0 20px;
 }
 
-@media (max-width: 910px) {
+@media (max-width: 840px) {
   .container {
-    padding: 0px 15px;
+    padding: 0px 20px;
   }
 }
 
@@ -36,9 +38,6 @@ body {
 .header__row {
   display: flex;
   justify-content: flex-end;
-}
-
-.header__nav {
 }
 
 .nav__panel {
@@ -62,6 +61,14 @@ a.nav__item {
 .profile__row {
   display: flex;
   margin: 0px 0px 80px 0px;
+}
+
+@media (max-width: 775px) {
+  .profile__row {
+    flex-direction: column-reverse;
+    align-items: center;
+    text-align: center;
+  }
 }
 
 .profile__info {
@@ -88,28 +95,17 @@ a.profile__info__button {
   padding: 9px 21px 9px 20px;
 }
 
-.profile__info__button {
-}
-
 .profile__foto {
   margin: 0px 0px 0px 115px;
 }
 
 @media (max-width: 775px) {
-  .profile__row {
-    flex-direction: column-reverse;
-    align-items: center;
-    text-align: center;
-  }
   .profile__foto {
     margin: 0px 0px 35px 0px;
   }
 }
 
-// Profile Start
-
-.main {
-}
+// Profile End
 
 // Recent post start
 .recent__post {
@@ -122,7 +118,6 @@ a.profile__info__button {
   justify-content: space-between;
   align-items: baseline;
   padding: 7px 0px 0px 0px;
-  // margin: 0px 0px 1px 0px;
 }
 
 .recent__title {
@@ -130,14 +125,8 @@ a.profile__info__button {
   line-height: 60px;
 }
 
-.recent__view {
-}
-
 .recent__view__link {
   color: #00a8cc;
-}
-
-.recent__row {
 }
 
 .recent__cards {
@@ -181,12 +170,6 @@ a.profile__info__button {
   width: 1px;
   border-right: 1px solid #000;
   margin: 0px 25px 0px 0px;
-}
-
-.recent__cart__event {
-}
-
-.recent__card__desc {
 }
 
 @media (max-width: 650px) {
@@ -308,4 +291,3 @@ a.profile__info__button {
   font-size: 14px;
   text-align: center;
 }
-// contacts End
